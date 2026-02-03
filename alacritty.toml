@@ -1,9 +1,12 @@
-# Alacritty Configuration File
 
 [general]
 import = [
     "C:\\Users\\divin\\AppData\\Roaming\\alacritty\\themes\\themes\\kanagawa_wave.toml"
 ]
+# Alacritty Configuration File
+
+# Start in home directory (PowerShell profile will handle C:\Dev)
+working_directory = "C:\\Dev"
 
 [env]
 TERM = "xterm-256color"
@@ -55,10 +58,12 @@ unfocused_hollow = true
 # Save to clipboard on selection
 save_to_clipboard = true
 
+
+
 [terminal.shell]
 # Default shell - PowerShell
 program = "powershell"
-args = ["-NoLogo", "-NoExit", "-Command", "Set-Location C:\\Dev"]
+args = ["-NoLogo"]
 
 [keyboard]
 bindings = [
