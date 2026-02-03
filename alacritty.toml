@@ -30,6 +30,12 @@ opacity = 0.95
 # Blur (Windows 11)
 blur = true
 
+# Dynamic title - updates based on shell
+dynamic_title = false
+
+# Title format - shows only current directory
+title = "Alacritty"
+
 [scrolling]
 # Maximum number of lines in scrollback buffer
 history = 10000
